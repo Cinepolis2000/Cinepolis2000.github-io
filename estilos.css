@@ -1,0 +1,223 @@
+body{
+	background:#02987F;
+}
+
+h1{
+	font-size: 25px;
+	font-style: Tahoma;
+	text-align: center;
+	color: black;
+}
+p{
+	font-size: 15px;
+	font-style: Tahoma;
+	text-align: center;
+	color: #FFFFFF;
+}	
+	
+table{
+		border-color: #0000FF;
+		font-size: 20px;
+		font-style: Tahoma;
+		text-align: center;
+		border: 2;
+		width: 90%;			
+}
+
+td{
+	background-color: #99FFFF;
+	text-align: center;
+	
+}
+
+th{
+	background-color:#029807;
+}
+
+
+
+tr{
+	align: "center";
+	text: #FFFFFF;
+}
+/*Codigo para tabla transparente*/
+.sin{
+	border-style: transparent;
+	border:0;
+	background-color:transparent;
+}
+/*Codigo para tamaño de imagenes de la tabla*/
+.timg{
+	width: 350px;
+	height: 250px;
+}
+/*Codigo para tamaño de imagen de logo*/
+.imgtam{
+	width: 400px;
+	height: 200px;
+}
+/*Codigo para imagenes en movimiento behavior*/
+.imgvior{
+	width: 350px;
+	height: 250px;
+}
+/*Codigo para derechos de autor*/
+.deraut{
+	color: #FFFF00;
+	size: 1;
+	font-style: Tahoma;
+}
+/*Color*/
+.body{
+	color:#0B0B61;
+}
+/*codigo para subtitulos*/
+.sub{
+	color:Black;
+	size:6;
+	font-style: tahoma;
+}
+/*codigo de estilo de letra*/
+.letra{
+	color:FFFFFF; 
+	size: 1; 
+	font-style:tahoma;
+	text-align: center;
+}
+/*Codigo para tamaño de imagen de logo de contacto*/
+.imt{
+	width: 200px;
+	height: 100px;
+}
+
+.div1{
+background:linear-gradient(to bottom,#1547B8,#FFFFFF);
+border: 1px solid #28CCFC;
+border-radius: 20px;
+margin: auto;
+}
+
+.div2{
+background:linear-gradient(to bottom,#1547B8,#FFFFFF);
+border: 1px solid #28CCFC;
+border-radius: 20px;
+margin: auto;
+}
+
+.div3{
+border: 5px solid #3664CD;
+background: #3664CD;
+}
+
+.div4{
+border: 5px solid #4F60AB;
+background: #4F60AB;
+}
+
+.caja{
+height:300px;
+width:250px;
+border:1px solid #FFFF;
+background: #0589B0;
+margin:5px;
+color:black;
+text-align:center;
+font-family:"calibri", sans-serif;
+Display:inline-block;
+}
+
+.caja:hover{
+/*Colocar div*/
+/*x y Radio color*/
+box-shadow: 0 0 10 px #283747;
+/*Cambia el tamaño del texto*/
+transform: scale(1.3);
+}
+
+.caja-texto{
+padding-bottom: 5px;
+padding-top:2px;
+font-size:30px;
+color:black;
+font-weight:bold;
+}
+
+.texto-adicional{
+padding-top: 5px;
+font-size:25px
+}
+/*Texto para los productos*/
+.txtproductos{
+font-size: 30px;
+	font-style: Tahoma;
+	text-align: center;
+	color: black;
+}
+
+@font-face{
+font-family:"oqpoing";
+src: url(Cafe_Matcha.ttf)
+}
+#fuente-cafe{
+font-family:"oqpoing";
+}
+
+.navegacion{
+display:flex;
+height:100px;
+}
+.navegacion-item{
+flex:1;
+color:#fff;
+font-weight:bold;
+font-size:15px;
+display:flex;
+transition:flex-grow 0.2s;
+justify-content:center;
+align-items:center;
+}
+.navegacion-item:hover{
+flex-grow:10;
+}
+.navegacion-item:hover .navegacion-titulo{
+margin:0;
+transform:rotate(-90deg);
+transition:transform 0.2s 0.2s;
+}
+.navegacion-item:nth-child(1){
+background:#3498DB;
+}
+.navegacion-item:nth-child(2){
+background:#85C1E9;
+}
+.navegacion-item:nth-child(3){
+background:#AED6F1;
+}
+.navegacion-item:nth-child(4){
+background:#EBF5FB;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
